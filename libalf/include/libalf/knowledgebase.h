@@ -93,7 +93,7 @@ class knowledgebase
 		class node
 		{
 			friend class knowledgebase<answer>;
-			friend class ::libalf::knowledgebase<answer>::iterator;
+			//friend class knowledgebase<answer>::iterator;
 			public: // types
 				enum status_e {
 					NODE_IGNORE = 0,
