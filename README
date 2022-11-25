@@ -1,10 +1,10 @@
-vim: tw=80 fo+=a
+# Libalf
 
+Forked libalf git repository in order to make it compile on Android NDK and using c++23.
 
-libalf subversion repository
+## Content
 
-
-this repository contains the following:
+This repository contains the following:
 
 libAMoRE
 	_local_branch_ of libAMoRE-1.0, a C library to handle finite
