@@ -65,6 +65,7 @@ template<class T> static inline T max(T x, T y) { return (x > y) ? x : y; }
 
 template <bool> struct STATIC_ASSERTION_FAILURE;
 template <> struct STATIC_ASSERTION_FAILURE<true>{};
+template <> struct STATIC_ASSERTION_FAILURE<false>{};
 #define TEMPLATE_FAIL STATIC_ASSERTION_FAILURE<false>()
 
 
