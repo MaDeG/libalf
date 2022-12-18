@@ -50,7 +50,7 @@ libalf.a: ${OBJECTS}
 	${AR} rcs $@ $(OBJECTS)
 
 clean:
-	-rm -f *.o alf.dll libalf.so libalf.a 2>&1
+	-rm -f *.o minisat/*.o alf.dll libalf.so libalf.a 2>&1
 
 install: ${TARGET} libalf.a
 	@echo

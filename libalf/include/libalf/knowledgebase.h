@@ -93,7 +93,7 @@ class knowledgebase
 		class node
 		{
 			friend class knowledgebase<answer>;
-			friend class knowledgebase<answer>::iterator;
+			//friend class knowledgebase<answer>::iterator;
 			public: // types
 				enum status_e {
 					NODE_IGNORE = 0,
@@ -1082,7 +1082,7 @@ class knowledgebase
 		{{{
 			return resolved_queries;
 		}}}
-		void reset_resolved_queries() const
+		void reset_resolved_queries()
 		{{{
 			resolved_queries = 0;
 		}}}
